@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/ranecsutu/bookings/pkg/config"
-	"github.com/ranecsutu/bookings/pkg/models"
-	"github.com/ranecsutu/bookings/pkg/render"
+	"github.com/ranecsutu/bookings/internal/config"
+	"github.com/ranecsutu/bookings/internal/models"
+	"github.com/ranecsutu/bookings/internal/render"
 )
 
 // Repo the repository used by the handlers

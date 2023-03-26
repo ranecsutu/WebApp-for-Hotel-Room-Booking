@@ -9,4 +9,5 @@ This is the repo for my bookings and reservations project.
 
 1. In the database.yml file enter your DB credentials.
 2. Run "soda migrate" to generate tables in database. After this, manually add an user into the "users" table (use the hash of the password). You will need a user to authenticate on the Login page in order to view admin dashboard.
-3. Run the program using CLI arguments like this: go run .\cmd\web\ -dbname 'DBNameHere' -dbuser 'DBUserHere' -dbpass 'UserPasswordHere'
+3. Run the program using CLI arguments like this: 
+go run .\cmd\web\ -dbname 'DBNameHere' -dbuser 'DBUserHere' -dbpass 'UserPasswordHere'
